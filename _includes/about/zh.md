@@ -2,7 +2,7 @@ Hello，大家好。
 
 我是`谢慕安`（公众号；`谢慕安`）
 
-![](img\qrcode_for_wx.jpg)
+![](/img/qrcode_for_wx.jpg)
 
 
 
