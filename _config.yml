@@ -1,10 +1,10 @@
 # Site settings
 title: 缠中说禅博客 - 互联网永存计划
-SEOTitle: 缠中说禅博客 | chzhshch Blog | 缠论 | 教你炒股票
+SEOTitle: 缠中说禅 | 缠论 | 教你炒股票 | 缠中说禅博客
 header-img: img/home-bg.jpg
 email: chzhshch1215172700@gmail.com
 description: "这里是缠中说禅博客的存档，原新浪博客里的文章已经严重缺失"
-keyword: "缠中说禅, 缠论, 教你炒股票, chzhshch, czsc, 缠中说禅的博客, chzhshch Blog, 股票"
+keyword: "缠中说禅, 缠论, 教你炒股票, 缠中说禅博客, 股票, chzhshch Blog, chzhshch, czsc"
 url: "https://chzhshch.org" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
