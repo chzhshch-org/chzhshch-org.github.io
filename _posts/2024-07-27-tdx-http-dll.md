@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "为什么会有本博客"
+title:        "使用任意语言开发通达信公式"
 author:       "谢慕安"
 header-style: text
 catalog:      true
@@ -10,11 +10,7 @@ tags:
     - 中年人学炒股
 ---
 
-# 使用任意语言开发通达信公式
-
 通达信通过HTTP扩展实现任意语言开发公式。
-
-
 
 ## 前言
 
