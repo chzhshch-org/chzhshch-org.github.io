@@ -3,7 +3,7 @@ layout:       post
 title:        "为什么会有本博客"
 author:       "谢慕安"
 header-style: text
-catalog:      true
+catalog:      false
 tags:
     - 缠中说禅
     - 谢慕安
