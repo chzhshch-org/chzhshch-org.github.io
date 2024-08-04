@@ -27,9 +27,6 @@ layout: default
 
 				{{ content }}
 
-                catalog: {{ page.catalog }}
-                no-catalog: {{ page.no-catalog }}
-
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     {% if page.previous.url %}
@@ -67,7 +64,7 @@ layout: default
             </div>  
 
     <!-- Side Catalog Container -->
-        {% unless page.no-catalog %}
+        {% unless page.catalog == true %}
             <div class="
                 col-lg-2 col-lg-offset-0
                 visible-lg-block
