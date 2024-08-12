@@ -70,6 +70,21 @@
     <!-- <script data-ad-client="ca-pub-6487568398225121" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
 
+    <!-- jQuery -->
+    <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+    <!-- Lightbox配置 -->
+    <script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true,
+          'disableScrolling': false,
+          'fadeDuration': 300,
+          'imageFadeDuration': 300,
+          'alwaysShowNavOnTouchDevices': true
+        });
+    </script>
+    
 </head>
