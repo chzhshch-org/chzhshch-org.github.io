@@ -33,7 +33,7 @@ tags:
 
 ## 原理
 
-[[![](/img/in-post/20240727-architecture.png){:data-lightbox="image-1" data-title=""}](/img/in-post/20240727-architecture.png)
+[![](/img/in-post/20240727-architecture.png){:data-lightbox="image-1" data-title=""}](/img/in-post/20240727-architecture.png)
 
 
 
@@ -115,7 +115,7 @@ http服务，进行对应的计算后，需要返回`200 OK`的响应，消息�
 
 在绑定好`tdx_http_dll`之后，新建一个公式，如下图所示：
 
-[[![](/img/in-post/20240727-example1.png){:data-lightbox="image-1" data-title=""}](/img/in-post/20240727-example1.png)
+[![](/img/in-post/20240727-example1.png){:data-lightbox="image-1" data-title=""}](/img/in-post/20240727-example1.png)
 
 
 
@@ -167,7 +167,7 @@ return new Response(rspBuff, {
 
 ### 最终效果
 
-[[![](/img/in-post/20240727-example2.png){:data-lightbox="image-1" data-title=""}](/img/in-post/20240727-example2.png)
+[![](/img/in-post/20240727-example2.png){:data-lightbox="image-1" data-title=""}](/img/in-post/20240727-example2.png)
 
 
 
