@@ -27,4 +27,8 @@ layout: null
       </item>
     {% endfor %}
   </channel>
+  <follow_challenge>
+    <feedId>63505388803478528</feedId>
+    <userId>41757286062388224</userId>
+</follow_challenge>
 </rss>
