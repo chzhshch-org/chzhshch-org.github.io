@@ -1,0 +1,58 @@
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode a {
+    color: #9cf;
+}
+
+.dark-mode .post-container {
+    background-color: #444;
+}
+
+.dark-mode header .site-heading,
+.dark-mode header .post-heading,
+.dark-mode header .page-heading {
+    color: #fff;
+}
+
+.dark-mode hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode .navbar-custom {
+    background-color: #222;
+}
+
+.dark-mode .navbar-custom .nav li a {
+    color: #ddd;
+}
+
+.dark-mode .navbar-custom .navbar-brand {
+    color: #fff;
+}
+
+.dark-mode footer {
+    background-color: #222;
+    color: #ddd;
+}
+
+/* 切换按钮样式 */
+#toggleMode {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#toggleMode:hover {
+    background-color: #0056b3;
+}
