@@ -6,6 +6,10 @@ layout: default
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
 
+<link rel="stylesheet" href="{{ " /css/dark-mode.css" | prepend: site.baseurl }}">
+<script src="{{ "/js/dark-mode.js " | prepend: site.baseurl }}"></script>
+
+
 <!-- Post Header -->
 {% include intro-header.html type='post' %}
 
@@ -64,10 +68,10 @@ layout: default
             </div>  
 
     <!-- Side Catalog Container -->
+        <div>
+            <button id="toggleMode">切换夜间模式</button>
+        </div>
         {% unless page.catalog == false %}
-            <div>
-                <button id="toggleMode">切换夜间模式</button>
-            </div>
             <div class="
                 col-lg-2 col-lg-offset-0
                 visible-lg-block
