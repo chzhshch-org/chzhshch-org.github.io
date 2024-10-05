@@ -42,10 +42,10 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <div>
-                        <button id="toggleMode">切换夜间模式</button>
-                    </div>
                     <div class="tags">
+                        <div>
+                            <button id="toggleMode">切换夜间模式</button>
+                        </div>
                         {% for tag in page.tags %}
                         <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
